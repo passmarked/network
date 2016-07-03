@@ -12,7 +12,7 @@ const options = {
 
 module.exports = exports = function() {
 
-  return https.createServer(options, (req, res) => {
+  return https.createServer(options, function(req, res) {
   
     if(req.url === '/app.js') {
 
