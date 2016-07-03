@@ -12,7 +12,7 @@ describe('favicon', function() {
 
   // increase the timeouts for this particular test suite,
   // as it runs locally too so can be a slow over ADSL ...
-  this.timeout(4000);
+  this.timeout(10000);
 
   // handle the error output
   it('Should return a error if there is no favicon', function(done) {
