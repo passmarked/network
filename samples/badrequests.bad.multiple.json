@@ -1,0 +1,222 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2016-04-20T21:32:21.709Z",
+        "id": "page_2",
+        "title": "http://jacqueskleynhans.com/",
+        "pageTimings": {
+          "onContentLoad": 433.2439999852795,
+          "onLoad": 1658.8960000080988
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2016-04-20T21:32:21.709Z",
+        "time": 39.21699998318218,
+        "request": {
+          "method": "GET",
+          "url": "http://jacqueskleynhans.com/",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "jacqueskleynhans.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,af;q=0.6,it;q=0.4,tr;q=0.2,sw;q=0.2,fr;q=0.2,cs;q=0.2"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "\"421818-1af9-52f9b9d3cd800\""
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Sun, 03 Apr 2016 21:51:28 GMT"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 564,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 20 Apr 2016 21:32:21 GMT"
+            },
+            {
+              "name": "ETag",
+              "value": "\"421818-1af9-52f9b9d3cd800\""
+            },
+            {
+              "name": "Server",
+              "value": "Apache"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 6905,
+            "mimeType": "text/html",
+            "text": "\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\n\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"description\" content=\"Graphic Design and Fine Art Portfolio of Jacques Kleynhans\">\n<meta name=\"keywords\" content=\"Graphic Design, Illustration, Art, Fine Art\">\n<meta name=\"author\" content=\"Jacques Kleynhans\">\n<title>Jacques Kleynhans BA(VCD) Selection 2004 - 2016</title>\n\n\t<!-- ****** faviconit.com favicons ****** -->\n\t<link rel=\"shortcut icon\" href=\"fav/favicon.ico\">\n\t<link rel=\"icon\" sizes=\"16x16 32x32 64x64\" href=\"fav/favicon.ico\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"196x196\" href=\"fav/favicon-192.png\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"160x160\" href=\"fav/favicon-160.png\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"fav/favicon-96.png\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"64x64\" href=\"fav/favicon-64.png\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"fav/favicon-32.png\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"fav/favicon-16.png\">\n\t<link rel=\"apple-touch-icon\" href=\"fav/favicon-57.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"fav/favicon-114.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"fav/favicon-72.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"fav/favicon-144.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"fav/favicon-60.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"fav/favicon-120.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"fav/favicon-76.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"fav/favicon-152.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"fav/favicon-180.png\">\n\t<meta name=\"msapplication-TileColor\" content=\"#FFFFFF\">\n\t<meta name=\"msapplication-TileImage\" content=\"fav/favicon-144.png\">\n\t<meta name=\"msapplication-config\" content=\"fav/browserconfig.xml\">\n\t<!-- ****** faviconit.com favicons ****** -->\n\n\n<!--[if lt IE 9]><script src=\"http://html5shim.googlecode.com/svn/trunk/html5.js\"></script><![endif]-->\n\n<link rel=\"stylesheet\" href=\"css/style.min.css\" />\n\n</head>\n\n\n<body class=\"demos \">\n<img src=\"img/icon.gif\" alt=\"Animated Icons\"width=\"59\" height=\"80\">\n<h2>Jacques Kleynhans</h2>\n<h2>Visual designer, lecturer and fine artist.</h2>\n<h3>Selection of work: 2004-2016 </h3>\n<h3><a href=\"mailto:\n&#109;&#097;&#105;&#108;&#064;&#106;&#097;&#099;&#113;&#117;&#101;&#115;&#107;&#108;&#101;&#121;&#110;&#104;&#097;&#110;&#115;&#046;&#099;&#111;&#109;\">\n&#109;&#097;&#105;&#108;&#064;&#106;&#097;&#099;&#113;&#117;&#101;&#115;&#107;&#108;&#101;&#121;&#110;&#104;&#097;&#110;&#115;&#046;&#099;&#111;&#109;\n</a></h3>\n<br>\n\n\n<div class=\"directorySlider\">\n<div class=\"container photos clearfix\">\n\n    <div class=\"photo\"> <img src=\"img/041.jpg\" alt=\"Mask III\"></a> </div>\n    <div class=\"photo\"> <img src=\"img/040.jpg\" alt=\"Elvis\"></a> </div>\n    <div class=\"photo\"> <img src=\"img/039.jpg\" alt=\"Building Site 1\"></a> </div>\n   \n\t<div class=\"photo\"> <img src=\"img/036.jpg\" alt=\"Evil Eye\"></a> </div>\n     <div class=\"photo\"> <img src=\"img/037.jpg\" alt=\"Toaster and Old Money\"></a> </div>\n    \n\t<div class=\"photo\"> <img src=\"img/034.jpg\" alt=\"Drowning in Darkness\"></a> </div>\n\t<div class=\"photo\"> <img src=\"img/035.jpg\" alt=\"Album Cover\"></a> </div>\n    <div class=\"photo\"> <img src=\"img/038.jpg\" alt=\"The Money Tree\"></a> </div>\n\t\n    <div class=\"photo\"> <img src=\"img/026.jpg\" alt=\"Hoax Em\"></a> </div>\n    <div class=\"photo\"> <img src=\"img/033.gif\" alt=\"Passmarked\"></a> </div>\n    <div class=\"photo\"> <img src=\"img/030.jpg\" alt=\"Mercado Andino\"></a> </div>\n    <div class=\"photo\"> <img src=\"img/025.jpg\" alt=\"Watermark High - For Good\"></a> </div>\n    <div class=\"photo\"> <img src=\"img/014.jpg\" alt=\"Wrestlerish - Greater Goods and Lesser Evils\"></a> </div>\n    <div class=\"photo\"> <img src=\"img/013.gif\" alt=\"Self Portrait\"></a> </div>\n\n    <div class=\"photo\">\n    <iframe src=\"https://player.vimeo.com/video/118465292?portrait=0&color=fff&title=0&badge=0&byline=0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>\n    </div>\n    \n    <div class=\"photo\"> <img src=\"img/010.gif\" alt=\"Lights, Camera, Malbec\"></div>\n    <div class=\"photo\"> <img src=\"img/005.jpg\" alt=\"The Watermark High - Bright Black\"></div>\n    <div class=\"photo\"> <img src=\"img/009.gif\" alt=\"Barf!\"></div>\n\n    <div class=\"photo\"> <img src=\"img/031.gif\" alt=\"Boom\"></div>\n    <div class=\"photo\"> <img src=\"img/032.gif\" alt=\"Waar is muis?\"></div>\n    <div class=\"photo\"> <img src=\"img/011.jpg\" alt=\"Lights, Camera, Malbec - Website\"></div>\n    <div class=\"photo\"> <img src=\"img/001.jpg\" alt=\"Ouch Mickey!\"></div>\n    <div class=\"photo\"> <img src=\"img/003.jpg\" alt=\"Borrower - Acrylic on Glass\"></div>\n    <div class=\"photo\"> <img src=\"img/017.gif\" alt=\"DYOF\"></div>\n    <div class=\"photo\"> <img src=\"img/027.jpg\" alt=\"Crack\"></div>\n    <div class=\"photo\"> <img src=\"img/018.jpg\" alt=\"Dance You're on Fire - Cover Art\"></div>\n\n\t <div class=\"photo\"> <img src=\"img/019.jpg\" alt=\"Dance You're on Fire - Cover Art\"></div>\n\n    <div class=\"photo\"> <img src=\"img/023.gif\" alt=\"Vumi Logo\"></div>\n\n    <div class=\"photo\"> <img src=\"img/002.jpg\" alt=\"No Man is a Land - Acrylic on Glass\"></div>\n    <div class=\"photo\"> <img src=\"img/008.gif\" alt=\"Generation Next\"></div>\n    <div class=\"photo\"> <img src=\"img/004.jpg\" alt=\"Graveyardland - Acrylic on Glass\"></div>\n    <div class=\"photo\"> <img src=\"img/006.jpg\" alt=\"The Watermark High - Murmurs\"></div>\n    <div class=\"photo\"> <img src=\"img/020.jpg\" alt=\"Dance You're on Fire - Carry You Music Video\"></div>\n\n    <div class=\"photo\">\n    <iframe src=\"https://player.vimeo.com/video/101841404?color=ffffff&title=0&byline=0&portrait=0\"\n    webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\n    </div>\n\n    <div class=\"photo\"> <img src=\"img/015.gif\" alt=\"Binary Robot Logo\"></div>\n    <div class=\"photo\"> <img src=\"img/022.gif\" alt=\"Water\"></div>\n    <div class=\"photo\"> <img src=\"img/024.gif\" alt=\"Leave a Trail\"></div>\n    <div class=\"photo\"> <img src=\"img/007.jpg\" alt=\"The Watermark High - Slow Motion Clarity\"></div>\n    <div class=\"photo\"> <img src=\"img/016.gif\" alt=\"Adrenaline Industries Logo\"></div>\n    <div class=\"photo\"> <img src=\"img/021.gif\" alt=\"DYOF Faces\"></div>\n\n\n\n</div>\n</div>\n\n<h3>Ⓒ 2016</h3>\n<br>\n<br>\n<!-- .container --> \n\n\n\n<script src=\"js/jquery-1.7.1.min.js\"></script>\n<script src=\"js/jquery.isotope.min.js\"></script>\n<!-- <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.js\"></script> -->\n<script src=\"js/jquery.lazyload.min.js\"></script>\n\n\n\n<script>\n    $(function(){\n    \t// $('.photo').hide();\n      var $container = $('.container').isotope({\n      });   \n    \n      $container.imagesLoaded( function(){\n        $container.isotope({\n          itemSelector : '.photo',\n        });\n      });\n    });\n\n  </script>\n\n\n\n<!-- #content -->\n\n</body>\n</html>\n<!-- Localized -->"
+          },
+          "redirectURL": "",
+          "headersSize": 196,
+          "bodySize": 0,
+          "_transferSize": 196
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.899000006029382,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.08999998681247301,
+          "wait": 36.66800001519734,
+          "receive": 1.5599999751429792,
+          "ssl": -1
+        },
+        "connection": "984401",
+        "pageref": "page_2"
+      },
+      {
+        "startedDateTime": "2016-04-20T21:32:21.709Z",
+        "time": 39.21699998318218,
+        "request": {
+          "method": "GET",
+          "url": "http://jacqueskleynhans.com/",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "jacqueskleynhans.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,af;q=0.6,it;q=0.4,tr;q=0.2,sw;q=0.2,fr;q=0.2,cs;q=0.2"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "\"421818-1af9-52f9b9d3cd800\""
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Sun, 03 Apr 2016 21:51:28 GMT"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 564,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 502,
+          "statusText": "Bad Gateway",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 20 Apr 2016 21:32:21 GMT"
+            },
+            {
+              "name": "ETag",
+              "value": "\"421818-1af9-52f9b9d3cd800\""
+            },
+            {
+              "name": "Server",
+              "value": "Apache"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 6905,
+            "mimeType": "text/html",
+            "text": "\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\n\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"description\" content=\"Graphic Design and Fine Art Portfolio of Jacques Kleynhans\">\n<meta name=\"keywords\" content=\"Graphic Design, Illustration, Art, Fine Art\">\n<meta name=\"author\" content=\"Jacques Kleynhans\">\n<title>Jacques Kleynhans BA(VCD) Selection 2004 - 2016</title>\n\n\t<!-- ****** faviconit.com favicons ****** -->\n\t<link rel=\"shortcut icon\" href=\"fav/favicon.ico\">\n\t<link rel=\"icon\" sizes=\"16x16 32x32 64x64\" href=\"fav/favicon.ico\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"196x196\" href=\"fav/favicon-192.png\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"160x160\" href=\"fav/favicon-160.png\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"fav/favicon-96.png\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"64x64\" href=\"fav/favicon-64.png\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"fav/favicon-32.png\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"fav/favicon-16.png\">\n\t<link rel=\"apple-touch-icon\" href=\"fav/favicon-57.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"fav/favicon-114.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"fav/favicon-72.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"fav/favicon-144.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"fav/favicon-60.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"fav/favicon-120.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"fav/favicon-76.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"fav/favicon-152.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"fav/favicon-180.png\">\n\t<meta name=\"msapplication-TileColor\" content=\"#FFFFFF\">\n\t<meta name=\"msapplication-TileImage\" content=\"fav/favicon-144.png\">\n\t<meta name=\"msapplication-config\" content=\"fav/browserconfig.xml\">\n\t<!-- ****** faviconit.com favicons ****** -->\n\n\n<!--[if lt IE 9]><script src=\"http://html5shim.googlecode.com/svn/trunk/html5.js\"></script><![endif]-->\n\n<link rel=\"stylesheet\" href=\"css/style.min.css\" />\n\n</head>\n\n\n<body class=\"demos \">\n<img src=\"img/icon.gif\" alt=\"Animated Icons\"width=\"59\" height=\"80\">\n<h2>Jacques Kleynhans</h2>\n<h2>Visual designer, lecturer and fine artist.</h2>\n<h3>Selection of work: 2004-2016 </h3>\n<h3><a href=\"mailto:\n&#109;&#097;&#105;&#108;&#064;&#106;&#097;&#099;&#113;&#117;&#101;&#115;&#107;&#108;&#101;&#121;&#110;&#104;&#097;&#110;&#115;&#046;&#099;&#111;&#109;\">\n&#109;&#097;&#105;&#108;&#064;&#106;&#097;&#099;&#113;&#117;&#101;&#115;&#107;&#108;&#101;&#121;&#110;&#104;&#097;&#110;&#115;&#046;&#099;&#111;&#109;\n</a></h3>\n<br>\n\n\n<div class=\"directorySlider\">\n<div class=\"container photos clearfix\">\n\n    <div class=\"photo\"> <img src=\"img/041.jpg\" alt=\"Mask III\"></a> </div>\n    <div class=\"photo\"> <img src=\"img/040.jpg\" alt=\"Elvis\"></a> </div>\n    <div class=\"photo\"> <img src=\"img/039.jpg\" alt=\"Building Site 1\"></a> </div>\n   \n\t<div class=\"photo\"> <img src=\"img/036.jpg\" alt=\"Evil Eye\"></a> </div>\n     <div class=\"photo\"> <img src=\"img/037.jpg\" alt=\"Toaster and Old Money\"></a> </div>\n    \n\t<div class=\"photo\"> <img src=\"img/034.jpg\" alt=\"Drowning in Darkness\"></a> </div>\n\t<div class=\"photo\"> <img src=\"img/035.jpg\" alt=\"Album Cover\"></a> </div>\n    <div class=\"photo\"> <img src=\"img/038.jpg\" alt=\"The Money Tree\"></a> </div>\n\t\n    <div class=\"photo\"> <img src=\"img/026.jpg\" alt=\"Hoax Em\"></a> </div>\n    <div class=\"photo\"> <img src=\"img/033.gif\" alt=\"Passmarked\"></a> </div>\n    <div class=\"photo\"> <img src=\"img/030.jpg\" alt=\"Mercado Andino\"></a> </div>\n    <div class=\"photo\"> <img src=\"img/025.jpg\" alt=\"Watermark High - For Good\"></a> </div>\n    <div class=\"photo\"> <img src=\"img/014.jpg\" alt=\"Wrestlerish - Greater Goods and Lesser Evils\"></a> </div>\n    <div class=\"photo\"> <img src=\"img/013.gif\" alt=\"Self Portrait\"></a> </div>\n\n    <div class=\"photo\">\n    <iframe src=\"https://player.vimeo.com/video/118465292?portrait=0&color=fff&title=0&badge=0&byline=0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>\n    </div>\n    \n    <div class=\"photo\"> <img src=\"img/010.gif\" alt=\"Lights, Camera, Malbec\"></div>\n    <div class=\"photo\"> <img src=\"img/005.jpg\" alt=\"The Watermark High - Bright Black\"></div>\n    <div class=\"photo\"> <img src=\"img/009.gif\" alt=\"Barf!\"></div>\n\n    <div class=\"photo\"> <img src=\"img/031.gif\" alt=\"Boom\"></div>\n    <div class=\"photo\"> <img src=\"img/032.gif\" alt=\"Waar is muis?\"></div>\n    <div class=\"photo\"> <img src=\"img/011.jpg\" alt=\"Lights, Camera, Malbec - Website\"></div>\n    <div class=\"photo\"> <img src=\"img/001.jpg\" alt=\"Ouch Mickey!\"></div>\n    <div class=\"photo\"> <img src=\"img/003.jpg\" alt=\"Borrower - Acrylic on Glass\"></div>\n    <div class=\"photo\"> <img src=\"img/017.gif\" alt=\"DYOF\"></div>\n    <div class=\"photo\"> <img src=\"img/027.jpg\" alt=\"Crack\"></div>\n    <div class=\"photo\"> <img src=\"img/018.jpg\" alt=\"Dance You're on Fire - Cover Art\"></div>\n\n\t <div class=\"photo\"> <img src=\"img/019.jpg\" alt=\"Dance You're on Fire - Cover Art\"></div>\n\n    <div class=\"photo\"> <img src=\"img/023.gif\" alt=\"Vumi Logo\"></div>\n\n    <div class=\"photo\"> <img src=\"img/002.jpg\" alt=\"No Man is a Land - Acrylic on Glass\"></div>\n    <div class=\"photo\"> <img src=\"img/008.gif\" alt=\"Generation Next\"></div>\n    <div class=\"photo\"> <img src=\"img/004.jpg\" alt=\"Graveyardland - Acrylic on Glass\"></div>\n    <div class=\"photo\"> <img src=\"img/006.jpg\" alt=\"The Watermark High - Murmurs\"></div>\n    <div class=\"photo\"> <img src=\"img/020.jpg\" alt=\"Dance You're on Fire - Carry You Music Video\"></div>\n\n    <div class=\"photo\">\n    <iframe src=\"https://player.vimeo.com/video/101841404?color=ffffff&title=0&byline=0&portrait=0\"\n    webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\n    </div>\n\n    <div class=\"photo\"> <img src=\"img/015.gif\" alt=\"Binary Robot Logo\"></div>\n    <div class=\"photo\"> <img src=\"img/022.gif\" alt=\"Water\"></div>\n    <div class=\"photo\"> <img src=\"img/024.gif\" alt=\"Leave a Trail\"></div>\n    <div class=\"photo\"> <img src=\"img/007.jpg\" alt=\"The Watermark High - Slow Motion Clarity\"></div>\n    <div class=\"photo\"> <img src=\"img/016.gif\" alt=\"Adrenaline Industries Logo\"></div>\n    <div class=\"photo\"> <img src=\"img/021.gif\" alt=\"DYOF Faces\"></div>\n\n\n\n</div>\n</div>\n\n<h3>Ⓒ 2016</h3>\n<br>\n<br>\n<!-- .container --> \n\n\n\n<script src=\"js/jquery-1.7.1.min.js\"></script>\n<script src=\"js/jquery.isotope.min.js\"></script>\n<!-- <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.js\"></script> -->\n<script src=\"js/jquery.lazyload.min.js\"></script>\n\n\n\n<script>\n    $(function(){\n    \t// $('.photo').hide();\n      var $container = $('.container').isotope({\n      });   \n    \n      $container.imagesLoaded( function(){\n        $container.isotope({\n          itemSelector : '.photo',\n        });\n      });\n    });\n\n  </script>\n\n\n\n<!-- #content -->\n\n</body>\n</html>\n<!-- Localized -->"
+          },
+          "redirectURL": "",
+          "headersSize": 196,
+          "bodySize": 0,
+          "_transferSize": 196
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.899000006029382,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.08999998681247301,
+          "wait": 36.66800001519734,
+          "receive": 1.5599999751429792,
+          "ssl": -1
+        },
+        "connection": "984401",
+        "pageref": "page_2"
+      }
+    ]
+  }
+}

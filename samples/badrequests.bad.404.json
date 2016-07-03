@@ -1,0 +1,122 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2016-04-20T21:32:21.709Z",
+        "id": "page_2",
+        "title": "http://jacqueskleynhans.com/",
+        "pageTimings": {
+          "onContentLoad": 433.2439999852795,
+          "onLoad": 1658.8960000080988
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2016-04-20T21:32:21.709Z",
+        "time": 39.21699998318218,
+        "request": {
+          "method": "GET",
+          "url": "http://jacqueskleynhans.com/",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "jacqueskleynhans.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,af;q=0.6,it;q=0.4,tr;q=0.2,sw;q=0.2,fr;q=0.2,cs;q=0.2"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "\"421818-1af9-52f9b9d3cd800\""
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Sun, 03 Apr 2016 21:51:28 GMT"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 564,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 404,
+          "statusText": "Bad Gateway",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 20 Apr 2016 21:32:21 GMT"
+            },
+            {
+              "name": "ETag",
+              "value": "\"421818-1af9-52f9b9d3cd800\""
+            },
+            {
+              "name": "Server",
+              "value": "Apache"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 6905,
+            "mimeType": "text/html",
+            "text": ""
+          },
+          "redirectURL": "",
+          "headersSize": 196,
+          "bodySize": 0,
+          "_transferSize": 196
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.899000006029382,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.08999998681247301,
+          "wait": 36.66800001519734,
+          "receive": 1.5599999751429792,
+          "ssl": -1
+        },
+        "connection": "984401",
+        "pageref": "page_2"
+      }
+    ]
+  }
+}
