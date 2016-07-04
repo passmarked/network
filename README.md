@@ -25,7 +25,7 @@ The rules checked in this module are:
 * **favicon.redirect**- Favicon request was redirected instead of just serving.
 * **compress.images** - GZIP was detected on any images on the page.
 * **html** - HTML returned from server was not minified.
-* **h2** - HTTP is not supported on server.
+* **h2** - HTTP2 is not supported on server.
 * **h2.blank** - Blank response from HTTP2 server
 * **h2.push** - HTTP2 Server Push could be used on blocking resources for the page.
 * **minify** - Resources returned were not minified.
