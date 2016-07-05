@@ -1,6 +1,6 @@
 # update local dev library for openssl
 RUN apt-get update
-RUN apt-get install -y wget openssl libssl-dev
+RUN apt-get install -y wget openssl libssl-dev coreutils
 
 # install our essentials to build openssl
 RUN apt-get install -y build-essential
