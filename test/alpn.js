@@ -40,11 +40,13 @@ describe('alpn', function() {
   });
 
   // handle the error output
-  /* it('Should return a error if the server does not have ALPN enabled', function(done) {
+  it('Should return a error if the server does not have ALPN enabled', function(done) {
+
+    this.timeout(8000);
 
     payload = passmarked.createPayload({
 
-        url: 'https://jacqueskleynhans.com/'
+        url: 'https://example.com/'
 
       }, {}, null);
 
@@ -68,6 +70,6 @@ describe('alpn', function() {
 
     });
 
-  }); */
+  });
 
 });

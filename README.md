@@ -121,6 +121,12 @@ cd /tmp/openssl-1.0.2h && make install
 rm -R /tmp/openssl-1.0.2h
 ```
 
+The module also expects to see `timeout` from `coreutils` present in some form, this defaults to `gtimeout` on MacOS which can be installed using:
+
+```
+brew install coreutils
+```
+
 ## Rules
 
 Rules represent checks that occur in this module, all of these rules have a **UID** which can be used to check for specific rules. For the structure and more details see the [Wiki](https://github.com/passmarked/passmarked/wiki) page on [Rules](https://github.com/passmarked/passmarked/wiki/Create).
