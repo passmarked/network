@@ -7,7 +7,7 @@ before_install:
   - cd /tmp/openssl-1.0.2h && ./config
   - cd /tmp/openssl-1.0.2h && make depend
   - cd /tmp/openssl-1.0.2h && make
-  - cd /tmp/openssl-1.0.2h && make install
+  - cd /tmp/openssl-1.0.2h && sudo make install
   - rm -R /tmp/openssl-1.0.2h
 language: node_js
 env:
