@@ -24,6 +24,8 @@ The rules checked in this module are:
 * **favicon.exists** - Favicon does not exists.
 * **favicon.redirect**- Favicon request was redirected instead of just serving.
 * **compress.images** - GZIP was detected on any images on the page.
+* **gzip.internal** - Returned if any CSS or JS assets on the same domain are not gzipped.
+* **gzip.external** - Returned if any CSS or JS assets on a third-party domain are not gzipped.
 * **html** - HTML returned from server was not minified.
 * **h2** - HTTP2 is not supported on server.
 * **h2.blank** - Blank response from HTTP2 server
