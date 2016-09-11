@@ -71,7 +71,7 @@ describe('html', function() {
       var rules = payload.getRules();
 
       // should have one rule
-      var rule = _.find(rules || [], function(item) { return item.key === 'minify.html'; });
+      var rule = _.find(rules || [], function(item) { return item.key === 'whitespace'; });
 
       if(!rule) assert.fail('Should have returned a error as the HTML was not minified');
 
@@ -101,7 +101,7 @@ describe('html', function() {
       var rules = payload.getRules();
 
       // should have one rule
-      var rule = _.find(rules || [], function(item) { return item.key === 'minify.html'; });
+      var rule = _.find(rules || [], function(item) { return item.key === 'whitespace'; });
 
       if(rule) assert.fail('Was not expecting a error');
 
