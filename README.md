@@ -25,6 +25,8 @@ The rules checked in this module are:
 * **favicon.redirect**- Favicon request was redirected instead of just serving.
 * **compress.images** - GZIP was detected on any images on the page.
 * **whitespace** - The HTML returned from server was not minified and contained whitespace that could have saved some space.
+* **gzip.internal** - Returned if any CSS or JS assets on the same domain are not gzipped.
+* **gzip.external** - Returned if any CSS or JS assets on a third-party domain are not gzipped.
 * **h2** - HTTP2 is not supported on server.
 * **h2.blank** - Blank response from HTTP2 server
 * **h2.push** - HTTP2 Server Push could be used on blocking resources for the page.
