@@ -3,10 +3,10 @@ const assert        = require('assert');
 const _             = require('underscore');
 const passmarked        = require('passmarked');
 const fs            = require('fs');
-const testFunc      = require('../lib/rules/html');
+const testFunc      = require('../lib/rules/whitespace');
 
 // checks warnings that we check for
-describe('html', function() {
+describe('whitespace', function() {
 
   // handle the error output
   it('Should just run if page content was null', function(done) {
@@ -71,7 +71,7 @@ describe('html', function() {
       var rules = payload.getRules();
 
       // should have one rule
-      var rule = _.find(rules || [], function(item) { return item.key === 'minify.html'; });
+      var rule = _.find(rules || [], function(item) { return item.key === 'whitespace'; });
 
       if(!rule) assert.fail('Should have returned a error as the HTML was not minified');
 
@@ -101,7 +101,7 @@ describe('html', function() {
       var rules = payload.getRules();
 
       // should have one rule
-      var rule = _.find(rules || [], function(item) { return item.key === 'minify.html'; });
+      var rule = _.find(rules || [], function(item) { return item.key === 'whitespace'; });
 
       if(rule) assert.fail('Was not expecting a error');
 
