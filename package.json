@@ -1,6 +1,6 @@
 {
   "name": "@passmarked/network",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Rules that check if the network is configured for the best performance",
   "main": "index.js",
   "engines": {
