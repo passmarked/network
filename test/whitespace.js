@@ -1,7 +1,7 @@
 // modules
 const assert        = require('assert');
 const _             = require('underscore');
-const passmarked        = require('passmarked');
+const passmarked    = require('passmarked');
 const fs            = require('fs');
 const testFunc      = require('../lib/rules/whitespace');
 
