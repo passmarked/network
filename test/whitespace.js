@@ -1,7 +1,7 @@
 // modules
 const assert        = require('assert');
 const _             = require('underscore');
-const passmarked        = require('passmarked');
+const passmarked    = require('passmarked');
 const fs            = require('fs');
 const testFunc      = require('../lib/rules/whitespace');
 
@@ -15,7 +15,7 @@ describe('whitespace', function() {
 
         url: 'http://example.com'
 
-      }, {}, null);
+      }, require('../samples/html.min.blank.json'), null);
 
     // execute the items
     testFunc(payload, function(err) {
@@ -37,7 +37,7 @@ describe('whitespace', function() {
 
         url: 'http://example.com'
 
-      }, {}, '');
+      }, require('../samples/html.min.blank.json'), '');
 
     // execute the items
     testFunc(payload, function(err) {
@@ -59,7 +59,7 @@ describe('whitespace', function() {
 
         url: 'http://example.com'
 
-      }, {}, fs.readFileSync('./samples/html.bad.html').toString());
+      }, require('../samples/html.min.bad.json'), fs.readFileSync('./samples/html.bad.html').toString());
 
     // execute the items
     testFunc(payload, function(err) {
@@ -89,7 +89,7 @@ describe('whitespace', function() {
 
         url: 'http://example.com'
 
-      }, {}, fs.readFileSync('./samples/html.good.html').toString());
+      }, require('../samples/html.min.good.json'), fs.readFileSync('./samples/html.good.html').toString());
 
     // execute the items
     testFunc(payload, function(err) {

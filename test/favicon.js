@@ -72,7 +72,7 @@ describe('favicon', function() {
       res.statusCode = 200;
       res.setHeader('Content-Type', 'application/ico');
       request({
-          url: 'http://static.passmarked.com/logo.png'
+          url: 'http://static.passmarked.com/logo256.png'
       }).on('error', function(e) {
           res.end(e);
       }).pipe(res);
