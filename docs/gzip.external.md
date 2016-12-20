@@ -6,7 +6,7 @@ In general GZIP can save your users 80%+ on file sizes to download.
 
 This issue is related to a external asset that was used which does not have GZIP enabled and could save your users a minimum of 20KB or more from the size of files needed to download to display your page.
 
-We advise contacting the remote vendor and showing the information as to the benefits that will be gained by enabling GZIP at [passmarked.com/performance/inspect/enable-gzip-to-decrease-size-that-the-user-has-to-download-from-local-site](http://passmarked.com/performance/inspect/enable-gzip-to-decrease-size-that-the-user-has-to-download-from-local-site). This will also guide you as to how this can be enabled.
+We advise contacting the remote vendor and showing the information as to the benefits that will be gained by enabling GZIP at [passmarked.com/library/performance/network/gzip.internal/enable-gzip-to-decrease-the-size-of-assets-that-the-user-has-to-download-from-local-site](https://passmarked.com/library/performance/network/gzip.internal). This will also guide you as to how this can be enabled.
 
 Alternatively, others that have GZIP enabled with the same content could also be sourced. 
 
