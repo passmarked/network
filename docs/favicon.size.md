@@ -1,4 +1,4 @@
-Great news the site has a favicon but it is a tad too big. 
+Great news - the site has a favicon, but it is a tad too big. 
 
 Favicons should be kept as small as possible making it cacheable and usable by the older browsers.
 
@@ -6,7 +6,7 @@ Newer browsers allow extra icons to be set either in the [manifest.json](https:/
 
 # How do I fix this ?
 
-Make sure the favicon at the root of your website (`/favicon`) small (< 10kb).
+Make sure the favicon at the root of your website (`/favicon`) is small (< 10kb).
 
 # Resources
 
