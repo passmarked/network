@@ -2,7 +2,7 @@ Having an extremely short caching age on local resources (in production) is gene
 
 # How do I fix this ?
 
-Consider setting the expires header at least two days in the future. If this is unacceptable, alternatives include filename based cache busting.
+Consider setting the `Expires` header at least two days in the future. If this is unacceptable, alternatives include filename based cache busting.
 
 # Resources
 
