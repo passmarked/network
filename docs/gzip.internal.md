@@ -107,7 +107,7 @@ source: [serverfault.com/a/452642/74976](http://serverfault.com/a/452642/74976)
 
 ```gzip_disable "<regex here>";```:
 
-Tells NGINX to disable gzip on user agents that match the given regex. A good starting point would be to add **<= IE6** browsers to this property as GZIP is not supported:
+Tells NGINX to disable GZIP on user agents that match the given regex. A good starting point would be to add **<= IE6** browsers to this property as GZIP is not supported:
 
 ```
 gzip_disable "MSIE [1-6].(?!.*SV1)";
@@ -141,7 +141,7 @@ Default: ```text/html```
 
 -
 
-After enabling and configuring these properties NGINX can be restarted and you should not a immediate decrease in file sizes that the client has to download.
+After enabling and configuring these properties NGINX can be restarted and you should not see an immediate decrease in file sizes that the client has to download.
 
 ## Apache
 
@@ -211,7 +211,7 @@ BrowserMatch \bMSI[E] !no-gzip
 
 -
 
-After enabling and configuring these properties Apache can be restarted and you should not a immediate decrease in file sizes that the client has to download.
+After enabling and configuring these properties Apache can be restarted and you should not see an immediate decrease in file sizes that the client has to download.
 
 # Resources
 
