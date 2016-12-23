@@ -4,7 +4,7 @@ Unminified JavaScript and CSS wastes bandwidth and delays the rendering of a web
 
 # How do I fix this ?
 
-Use a build tool (`npm`, `grunt` or `gulp`) to automate the minification of your production javascript and css (but also keep the development files in human readable format). Alternatively, command-line and online minifiers also exist.
+Use a build tool (`npm`, `grunt` or `gulp`) to automate the minification of your production javascript and CSS (but also keep the development files in human readable format). Alternatively, command-line and online minifiers also exist.
 
 # Resources
 
