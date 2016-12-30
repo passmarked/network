@@ -2,7 +2,7 @@ Slow response times increase page abandonment with the average user only waiting
 
 The error could present itself by simply having a slow website due to application code. Or just a slow connection to the server overall. Which could indicate that your link is saturated and it's time to upgrade to a bigger or more servers to handle the traffic. Shared hosting is a common problem here.
 
-When testing we expect to see that the server responds with content for the user to start processing in under a second at a minimum, ideally this would happen as close to 100ms (The goldy locks zone of response time) as possible.
+When testing we expect to see that the server responds with content for the user to start processing in under a second at a minimum, and ideally this would happen as close to 100ms (the goldy locks zone of response time) as possible.
 
 # How do I fix this ?
 
