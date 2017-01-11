@@ -132,7 +132,7 @@ describe('cache', function() {
   });
 
   // handle the error output
-  it('If the max age is more than 2 days but on seperate day should not produce a error', function(done) {
+  it('If the max age is more than 2 days but on seperate domain should not produce a error', function(done) {
 
     payload = passmarked.createPayload({
 
@@ -253,6 +253,37 @@ describe('cache', function() {
 
       // check for a error
       if(rule) assert.fail('Should not have gotten a error from the function');
+
+      // done
+      done();
+
+    });
+
+  });
+
+  // handle the error output
+  it('Should return a error if external resource has a max-age 0', function(done) {
+
+    payload = passmarked.createPayload({
+
+        url: 'http://example.com'
+
+      }, require('../samples/cache.external.zero.json'), '<p>test</p>');
+
+    // execute the items
+    testFunc(payload, function(err) {
+
+      // check the error
+      if(err) assert.fail('Got a error from the test');
+
+      // get the rules
+      var rules = payload.getRules();
+
+      // should have one rule
+      var rule = _.find(rules || [], function(item) { return item.key === 'expire.external'; });
+
+      // check for a error
+      if(rule) assert.fail('Was not expecting a error for less than 6 hours');
 
       // done
       done();
