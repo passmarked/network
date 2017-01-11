@@ -94,7 +94,7 @@
             },
             {
               "name": "Cache-Control",
-              "value": "max-age=0"
+              "value": "max-age=5"
             }
           ],
           "cookies": [],

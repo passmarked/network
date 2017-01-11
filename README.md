@@ -14,8 +14,11 @@ The rules checked in this module are:
 
 * **alpn** - ALNP negotiation could not be performed, meaning the protocol is disabled.
 * **bad** - Any of the links in the HAR returned a status code other than REDIRECT/INFO/OK
+* **cache.scope** - The cache-control header specified that the resource is cacheable by both **private** and **public**. Which may cause unindentended behaviour.
+* **cache.unknown** - Unknown options configured apart from known types - [developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control). This will only be triggered on "local" resources, as that is what the user can fix. And browsers will tend to ignore the other options on third parties. This is more the rule being precise.
 * **cache.internal** - Caching on the internal resource is not configured
 * **cache.external** - Caching on the external (third party domain) resource is not configured
+* **expire.date** - The `expire` header contained a invalid date
 * **expire.internal** - The caching duration on a local resource is configured for less than 2 days at a minimum
 * **expire.external** - The caching duration on a external resource is configured for less than 6 hours at a minimum
 * **charset** - Charset could have been set earlier in the headers of the response.
