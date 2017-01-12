@@ -1,8 +1,8 @@
-GZIP is used to compress text based responses before sending them to the client who will uncompress them.
+`GZIP` is used to compress text based responses before sending them to the client who will uncompress them.
 
-This allows clients to download a considerable smaller file by taking a small expense of compressing on the server when sending the response.
+This allows clients to download a considerably smaller file by taking a small expense of compressing on the server when sending the response.
 
-By general GZIP can save your users 80%+ on file sizes to download, in most cases.
+In general GZIP can save your users 80%+ on file sizes to download.
 
 # When compression is a bad thing
 
@@ -13,20 +13,20 @@ These file types include:
 * Media files such as **mp4**, **avi**, **mp3**
 * Image files such **png**, **jpeg**, **jpg**, **gif**
 
-As these files are already compressed your users will only be downloading file that is almost the same size at the expense of your server having to compress it as well.
+As these files are already compressed your users will only be downloading a file that is almost the same size at the expense of your server having to compress it as well.
 
 
 # How to enable
 
-Solutions to enable GZIP depends on how your website might be hosted, as this dictates what can be changed. For various types of sitations we have listed a few examples to enable the setting and/or services that could be used.
+Solutions to enable GZIP depends on how your website might be hosted, as this dictates what can be changed. For various types of situations we have listed a few examples to enable the setting and/or services that could be used.
 
-It's worth noting that external services like  [Cloudflare](cloudflare.com) who do various things to speed up your website can be used in place of any of these provided solutions.
+It's worth noting that external services like  [Cloudflare](cloudflare.com) that do various things to speed up your website can be used in place of any of these provided solutions.
 
 ## Shared-Hosting
 
 If your paying a small amount and gaining access to your website through [CPanel](http://cpanel.com/) and uploading changes via FTP you're probably on a shared host.
 
-What this is that the provider gives you limited access to certain folders where your website files be located and then hides all of the server configuration to allow quick and simple website development.
+What this is, is that the provider gives you limited access to certain folders where your website files will be located and then hides all of the server configuration to allow quick and simple website development.
 
 The downside is that various clients may be using the same server your website is currently running on and could slow down your website if they start receiving attention. 
 
@@ -71,7 +71,7 @@ Default: ```20 bytes```
 
 ```gzip_comp_level: <1-9;```:
 
-Specifies the "compression level" that signifies how much NGINX will try. This level has a direct correlation with how much processing power will be required to serve and compress these files, on high-volume sites higher numbers here will certainly be felt on system load and capacity.
+Specifies the "compression level" that signifies how much NGINX will try. This level has a direct correlation with how much processing power will be required to serve and compress these files. On high-volume sites higher numbers here will certainly be felt on system load and capacity.
 
 A test ran by a user from ServerFault shows the following compression rates:
 
@@ -107,7 +107,7 @@ source: [serverfault.com/a/452642/74976](http://serverfault.com/a/452642/74976)
 
 ```gzip_disable "<regex here>";```:
 
-Tells NGINX to disable gzip on user agents that match the given regex. A good starting point would be to add **<= IE6** browsers to this property as GZIP is not supported:
+Tells NGINX to disable GZIP on user agents that match the given regex. A good starting point would be to add **<= IE6** browsers to this property as GZIP is not supported:
 
 ```
 gzip_disable "MSIE [1-6].(?!.*SV1)";
@@ -141,7 +141,7 @@ Default: ```text/html```
 
 -
 
-After enabling and configuring these properties NGINX can be restarted and you should not a immediate decrease in file sizes that the client has to download.
+After enabling and configuring these properties NGINX can be restarted and you should not see an immediate decrease in file sizes that the client has to download.
 
 ## Apache
 
@@ -211,7 +211,7 @@ BrowserMatch \bMSI[E] !no-gzip
 
 -
 
-After enabling and configuring these properties Apache can be restarted and you should not a immediate decrease in file sizes that the client has to download.
+After enabling and configuring these properties Apache can be restarted and you should not see an immediate decrease in file sizes that the client has to download.
 
 # Resources
 
