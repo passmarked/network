@@ -59,7 +59,44 @@ describe('whitespace', function() {
 
         url: 'http://example.com'
 
-      }, require('../samples/html.min.bad.json'), fs.readFileSync('./samples/html.bad.html').toString());
+      },
+      {
+
+        log: {
+
+          entries: [
+
+            {
+
+              request:  {},
+              response: {
+
+                status: 200,
+                headers: [
+
+                  {
+
+                    name: 'content-type',
+                    value:  'text/html'
+
+                  }
+
+                ],
+                content: {
+
+                  text: fs.readFileSync('./samples/html.bad.html').toString()
+
+                }
+
+              }
+
+            }
+
+          ]
+
+        }
+
+      }, fs.readFileSync('./samples/html.bad.html').toString());
 
     // execute the items
     testFunc(payload, function(err) {
