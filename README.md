@@ -37,6 +37,8 @@ The rules checked in this module are:
 * **minify.empty** - Resource was empty after content was minified, meaning the request could probably just be removed. 
 * **pagespeed.slow** - Initial response took more than 3 seconds seconds to render.
 * **pagespeed.warn** - Initial response took more than 1 second to render.
+* **redirect.count** - No more than 2 initial redirects should occur.
+* **redirect.clientside** - Uncacheable client-side redirect using Javascript which caused the browser to load a entire new page
 * **vary** - Vary header was not configured on the responses of resources.
 
 ## Running
