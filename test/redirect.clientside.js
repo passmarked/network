@@ -3,7 +3,6 @@ const assert        = require('assert');
 const _             = require('underscore');
 const passmarked    = require('passmarked');
 const testFunc      = require('../lib/rules/redirect');
-const moment        = require('moment');
 const fs            = require('fs');
 
 // checks warnings that we check for
