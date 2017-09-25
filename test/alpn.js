@@ -46,7 +46,7 @@ describe('alpn', function() {
 
     payload = passmarked.createPayload({
 
-        url: 'https://example.com/'
+        url: 'https://example2.com/'
 
       }, {}, null);
 
