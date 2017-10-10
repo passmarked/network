@@ -68,6 +68,36 @@ describe('charset', function() {
   });
 
   // handle the error output
+  it('Should not return a error if the charset was not set on a != 200 response', function(done) {
+
+    payload = passmarked.createPayload({
+
+        url: 'http://jacqueskleynhans.com'
+
+      }, require('../samples/charset.status.json'), null);
+
+    // execute the items
+    testFunc(payload, function(err) {
+
+      // check the error
+      if(err) assert.fail('Got a error from the function');
+
+      // get the rules
+      var rules = payload.getRules();
+
+      // should have one rule
+      var rule = _.find(rules || [], function(item) { return item.key === 'charset'; });
+
+      if(rule) assert.fail('Was not expecting a error');
+
+      // done
+      done();
+
+    });
+
+  });
+
+  // handle the error output
   it('Should not return a error if the charset was set [text/html,charset=utf-8]', function(done) {
 
     payload = passmarked.createPayload({
