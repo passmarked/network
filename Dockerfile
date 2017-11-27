@@ -14,3 +14,6 @@ RUN cd /tmp/openssl-1.0.2h && make depend
 RUN cd /tmp/openssl-1.0.2h && make
 RUN cd /tmp/openssl-1.0.2h && make install
 RUN rm -R /tmp/openssl-1.0.2h
+
+# start and run all our services
+CMD ["/usr/bin/npm", "start"]

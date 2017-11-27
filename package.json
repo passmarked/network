@@ -4,9 +4,10 @@
   "description": "Rules that check if the network is configured for the best performance",
   "main": "index.js",
   "engines": {
-    "node": ">=0.12.0"
+    "node": ">=4.0.0"
   },
   "scripts": {
+    "start": "node node_modules/@passmarked/worker/cli.js worker.json",
     "test": "mocha"
   },
   "repository": {
