@@ -1,3 +1,6 @@
+# Base image for ubuntu 14.04
+FROM gcr.io/passmarked/base:latest
+
 # update local dev library for openssl
 RUN apt-get update
 RUN apt-get install -y wget openssl libssl-dev coreutils
